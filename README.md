@@ -1,22 +1,28 @@
-# blackjack
+# BlackJack (21)
 
-A Clojure library designed to ... well, that part is up to you.
+A project done in clojure to blackjack game based in a journey clojure (https://www.youtube.com/playlist?list=PLcjDvROHY58MlqcAU7d0fYhAJQ-p-dMp6)
+
+**Clojure Libraries**
+- card-ascii-art
 
 ## Usage
 
-FIXME
+To use the project in:
 
-## License
+**Repl:**
 
-Copyright © 2024 FIXME
+Init project in archive blackjack.game, found in package "src/blackjack"
 
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+**Terminal** 
 
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+To init project in terminal you need naveagte to project location and insert commands:
+
+`cd target/`
+
+`java -jar blackjack-0.1.0-SNAPSHOT-standalone.jar`
+
+## Instructions
+
+the objective from game is reach 21 points, no more, no less.
+
+To play game, you need insert the player 1 (you) and player 2 names, after the game will show the cards for players, so you need choose whether you want more cards or not, if not, need digit "no" in terminal or repl to the game passed to player 2, so who achieve 21 points or get close for more the value, wins!
