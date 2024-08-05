@@ -6,3 +6,7 @@
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojars.cesaralcancio/card-ascii-art "0.4.0"]]
   :repl-options {:init-ns blackjack.core})
+
+
+;:main blackjack.game
+;:aot :all
