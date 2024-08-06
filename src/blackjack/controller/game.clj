@@ -13,12 +13,11 @@
 (defn player-decision
   [player]
   (loop []
-    (let [input (read-line)]
-      (case input
+      (case (read-line)
         "yes" true
         "no" false
         (do (println "Invalid response.")
-            (recur))))))
+            (recur)))))
 
 (defn dealer-decision-continue
   [player-points dealer]
@@ -40,11 +39,9 @@
         message (cond
                   (and (> player-points 21) (> dealer-points 21)) "Both lost!"
                   (= player-points dealer-points) "Draw!"
-                  (> player-points 21) (str dealer-name " wins!")
-                  (> dealer-points 21) (str player-name " wins!")
-                  (> player-points dealer-points) (str player-name " wins!")
-                  :else (str dealer-name " wins!"))]
+                  (> player-points 21) (str dealer-name " won!")
+                  (> dealer-points 21) (str player-name " won!")
+                  :else (str dealer-name " won!"))]
     (card/print-player player)
     (card/print-player dealer)
     (println message)))
-
