@@ -1,6 +1,6 @@
 # BlackJack (21)
 
-A project done in clojure to blackjack game based in a journey clojure (https://www.youtube.com/playlist?list=PLcjDvROHY58MlqcAU7d0fYhAJQ-p-dMp6)
+A project made in clojure to blackjack game based in a journey clojure (https://www.youtube.com/playlist?list=PLcjDvROHY58MlqcAU7d0fYhAJQ-p-dMp6)
 
 **Clojure Libraries**
 - card-ascii-art
