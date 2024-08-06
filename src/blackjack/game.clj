@@ -5,7 +5,6 @@
 
 (defn ask-names []
   (println "Welcome to the game of Blackjack!")
-  (println "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=")
   (println "Give a name for player 1:")
   (let [player1 (str (read-line))]
     (println "Give a name for player 2:")
