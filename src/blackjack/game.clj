@@ -22,8 +22,6 @@
         player2-after-game (controller/game player-2 (partial controller/dealer-decision-continue (:points player1-after-game)))]
     (controller/end-game player1-after-game player2-after-game)))
 
-(play-blackjack-game)
-
-;(defn -main
-;  [& args]
-;  (play-blackjack-game))
+(defn -main
+  [& args]
+  (play-blackjack-game))

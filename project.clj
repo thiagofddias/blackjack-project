@@ -5,4 +5,6 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [org.clojars.cesaralcancio/card-ascii-art "0.4.0"]]
+  :main blackjack.game
+  :aot :all
   :repl-options {:init-ns blackjack.core})
